@@ -14,10 +14,3 @@ def train():
         torch.cuda.empty_cache()
     train_data = open(args.train_jsonl).readlines()
     # (...)
-
-            # (...)
-            #drop_prefix = "speaker_encoder"
-            #keys_to_drop = [k for k in state_dict.keys() if k.startswith(drop_prefix)]
-            #for k in keys_to_drop:
-            #    del state_dict[k]
-            # (...)
