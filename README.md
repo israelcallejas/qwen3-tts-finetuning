@@ -6,3 +6,5 @@ TypeError: 'NoneType' object is not callable
 ```
 
 the crash happens because `model.speaker_encoder` is `None` during training.
+
+https://github.com/user-attachments/assets/b0520b19-b49f-478c-a5ab-6afc56f83260
